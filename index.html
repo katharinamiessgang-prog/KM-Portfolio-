@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Katharina Miessgang | Creative Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700;800&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-background": "#1c1b1b",
+                        "inverse-surface": "#313030",
+                        "on-primary-container": "#858383",
+                        "outline-variant": "#c4c7c7",
+                        "tertiary-container": "#1c1b1a",
+                        "secondary-fixed-dim": "#ffb1c7",
+                        "surface-tint": "#5f5e5e",
+                        "error-container": "#ffdad6",
+                        "surface-container-lowest": "#ffffff",
+                        "on-error": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "muted-light": "#999999",
+                        "on-primary": "#ffffff",
+                        "surface-container": "#f1edec",
+                        "muted-dark": "#555555",
+                        "outline": "#747878",
+                        "secondary": "#a53360",
+                        "error": "#ba1a1a",
+                        "on-tertiary-fixed": "#1c1b1a",
+                        "sage-accent": "#8FB89C",
+                        "surface-bright": "#fdf8f8",
+                        "tertiary-fixed": "#e6e2df",
+                        "border-dashed": "#D8CFC4",
+                        "on-surface": "#1c1b1b",
+                        "primary": "#000000",
+                        "surface-dim": "#ddd9d8",
+                        "on-secondary-container": "#77093d",
+                        "on-tertiary": "#ffffff",
+                        "primary-fixed-dim": "#c8c6c5",
+                        "on-primary-fixed-variant": "#474746",
+                        "on-primary-fixed": "#1c1b1b",
+                        "inverse-primary": "#c8c6c5",
+                        "surface-container-highest": "#e5e2e1",
+                        "tertiary": "#000000",
+                        "primary-container": "#1c1b1b",
+                        "surface-container-high": "#ebe7e6",
+                        "surface-container-low": "#f7f3f2",
+                        "background-cream": "#FAF7F3",
+                        "on-surface-variant": "#444748",
+                        "on-tertiary-fixed-variant": "#484645",
+                        "navy-bg": "#1C2B3A",
+                        "background": "#fdf8f8",
+                        "secondary-container": "#C94F7C",
+                        "on-secondary-fixed": "#3e001c",
+                        "on-tertiary-container": "#868382",
+                        "surface": "#fdf8f8",
+                        "yellow-accent": "#F4EFC3",
+                        "primary-fixed": "#e5e2e1",
+                        "on-secondary-fixed-variant": "#861948",
+                        "tertiary-fixed-dim": "#cac6c4",
+                        "on-secondary": "#ffffff",
+                        "inverse-on-surface": "#f4f0ef",
+                        "secondary-fixed": "#ffd9e2",
+                        "surface-variant": "#e5e2e1"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "section-padding": "8rem",
+                        "container-max": "1440px",
+                        "gutter": "2rem",
+                        "margin-mobile": "1.5rem"
+                    },
+                    "fontFamily": {
+                        "tag": ["Space Grotesk"],
+                        "body-lg": ["Space Grotesk"],
+                        "headline-lg": ["Bricolage Grotesque"],
+                        "headline-md": ["Bricolage Grotesque"],
+                        "display-hero": ["Bricolage Grotesque"],
+                        "body-md": ["Space Grotesk"],
+                        "pull-quote": ["Bricolage Grotesque"],
+                        "label-caps": ["Space Grotesk"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .flat-shadow {
+            box-shadow: 12px 12px 0px rgba(0, 0, 0, 0.1);
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .border-dashed-custom {
+            border-style: dashed;
+            border-width: 1px;
+        }
+        .active-nav {
+            text-decoration: underline;
+            text-underline-offset: 4px;
+            text-decoration-thickness: 2px;
+        }
+    </style>
+</head>
+<body class="bg-background-cream text-on-background selection:bg-secondary-container selection:text-white">
+<!-- Navigation -->
+<nav class="fixed top-0 w-full z-50 bg-background-cream border-b border-dashed border-border-dashed h-20 flex items-center">
+<div class="flex justify-between items-center w-full px-margin-mobile md:px-gutter max-w-container-max mx-auto">
+<a class="font-headline-md text-headline-md font-bold text-on-background" href="#">Katharina Miessgang</a>
+<div class="hidden md:flex gap-12">
+<a class="font-label-caps text-label-caps uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors" href="#about">About</a>
+<a class="font-label-caps text-label-caps uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors" href="#work">Work</a>
+<a class="font-label-caps text-label-caps uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors" href="#services">Services</a>
+</div>
+<a class="bg-secondary-container text-white px-8 py-3 rounded-full font-label-caps text-label-caps uppercase tracking-widest hover:opacity-90 transition-all active:scale-95" href="#contact">Say Hi</a>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="pt-32 pb-section-padding px-margin-mobile md:px-gutter max-w-container-max mx-auto min-h-screen flex flex-col justify-center">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+<div class="md:col-span-7">
+<h1 class="font-display-hero text-display-hero text-secondary-container uppercase mb-6">PORTFOLIO</h1>
+<p class="font-body-lg text-body-lg max-w-xl text-muted-dark leading-relaxed">
+                    Hi, I'm Katharina — Austrian creative director, digital designer &amp; content creator based in Madrid. I turn ideas into things people stop scrolling for.
+                </p>
+<div class="mt-12 inline-flex items-center gap-4 py-2 px-4 border border-dashed border-border-dashed rounded-full">
+<span class="material-symbols-outlined text-secondary">south</span>
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-on-surface-variant">Keep Scrolling</span>
+</div>
+</div>
+<div class="md:col-span-5 relative">
+<div class="p-4 bg-white flat-shadow relative z-10">
+<img class="w-full aspect-[4/5] object-cover" alt="Katharina Miessgang portrait" src="https://raw.githubusercontent.com/katharinamiessgang-prog/katharina-portfolio-images/main/hero-portrait.jpg"/>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-section-padding border-t border-dashed border-border-dashed" id="about">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-12">
+<div class="md:col-span-4">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary block mb-8">About</span>
+</div>
+<div class="md:col-span-8">
+<h2 class="font-pull-quote text-pull-quote italic mb-12 leading-snug">
+                        "I create visually driven concepts that combine storytelling, branding and culture to build engaging audience experiences."
+                    </h2>
+<div class="font-body-lg text-body-lg text-muted-dark space-y-6 max-w-2xl mb-12">
+<p>My work ranges from creative direction and content production to campaign conceptualization across digital, social and visual platforms — always balancing aesthetics with emotional impact and audience connection.</p>
+<p>Inspired by fashion, music, entertainment and everyday human experience.</p>
+</div>
+<div class="flex flex-wrap gap-4">
+<span class="bg-yellow-accent px-6 py-2 rounded-full font-tag text-tag text-on-surface">Madrid, ES</span>
+<span class="bg-sage-accent px-6 py-2 rounded-full font-tag text-tag text-on-surface">Austrian</span>
+<span class="bg-secondary-container text-white px-6 py-2 rounded-full font-tag text-tag">DE-EN-FR-ES</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Work Section - Spreads -->
+<section class="py-section-padding bg-white" id="work">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter">
+<div class="flex items-center justify-between mb-24">
+<h2 class="font-label-caps text-label-caps uppercase tracking-widest text-secondary">Selected Work</h2>
+<div class="flex-grow ml-8 h-px border-t border-dashed border-border-dashed"></div>
+</div>
+<!-- Spread 1: On Running -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-16 items-center mb-section-padding">
+<div class="md:col-span-7">
+<div class="flat-shadow bg-background-cream">
+<img class="w-full aspect-[16/10] object-cover" alt="On Running campaign — Run Lighter, winged runner against blue sky" src="https://raw.githubusercontent.com/katharinamiessgang-prog/katharina-portfolio-images/main/on-running.jpg"/>
+</div>
+</div>
+<div class="md:col-span-5">
+<span class="font-label-caps text-label-caps text-muted-light uppercase mb-4 block">Photography &amp; Design, 2026 — Creative Director / Photographer</span>
+<h3 class="font-headline-lg text-headline-lg mb-6">On Running Campaign</h3>
+<p class="font-body-md text-body-md text-muted-dark mb-8">Conceptualized, directed, and photographed a still-image campaign for On Running, from initial concept to final execution. The campaign highlights lightness and performance through a surreal, dreamlike visual — transforming the runner into a winged figure to embody the sensation of effortless movement. By merging fashion aesthetics with athletic storytelling, the campaign positions On Running as both a performance brand and a source of elevated, expressive identity.</p>
+</div>
+</div>
+<!-- Spread 2: That Smile (Reversed) -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-16 items-center mb-section-padding">
+<div class="md:col-span-5 order-2 md:order-1">
+<span class="font-label-caps text-label-caps text-muted-light uppercase mb-4 block">Documentary &amp; Design, 2026 — Director</span>
+<h3 class="font-headline-lg text-headline-lg mb-6">That Smile</h3>
+<p class="font-body-md text-body-md text-muted-dark mb-8">A two-minute mood reel and accompanying poster series exploring home as an emotional experience shaped through sibling relationships. Blending documentary and design, the project unfolds through poetic narration and intimate, nostalgic imagery, centered on the motif of a spontaneous smile symbolizing safety, familiarity, and belonging.</p>
+</div>
+<div class="md:col-span-7 order-1 md:order-2">
+<div class="flat-shadow bg-background-cream">
+<img class="w-full aspect-[16/10] object-cover" alt="That Smile — short film poster" src="https://raw.githubusercontent.com/katharinamiessgang-prog/katharina-portfolio-images/main/that-smile.jpg"/>
+</div>
+</div>
+</div>
+<!-- Spread 3: Republic of Levi's -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-16 items-center">
+<div class="md:col-span-7">
+<div class="flat-shadow bg-background-cream">
+<img class="w-full aspect-[16/10] object-cover" alt="Republic of Levi's — Nowhere Is Too Far campaign mockup" src="https://raw.githubusercontent.com/katharinamiessgang-prog/katharina-portfolio-images/main/republic-of-levis.jpg"/>
+</div>
+</div>
+<div class="md:col-span-5">
+<span class="font-label-caps text-label-caps text-muted-light uppercase mb-4 block">Documentary &amp; Design, 2026 — Director</span>
+<h3 class="font-headline-lg text-headline-lg mb-6">Republic of Levi's</h3>
+<p class="font-body-md text-body-md text-muted-dark mb-8">Conceptualized, designed, and shot a still-image campaign for Levi's, overseeing the process from creative idea to final execution. Set against contrasting, remote landscapes — from desert to snow — the campaign visualizes the idea that no place is too far, with the recurring Levi's box becoming a symbol of connection and shared identity across environments.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Work Section - Grid -->
+<section class="py-section-padding bg-background-cream border-t border-dashed border-border-dashed">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter">
+<div class="flex items-center justify-between mb-16">
+<h2 class="font-label-caps text-label-caps uppercase tracking-widest text-secondary">Explore More Work</h2>
+<div class="flex-grow ml-8 h-px border-t border-dashed border-border-dashed"></div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+<!-- Grid Item 1 -->
+<div class="group cursor-pointer">
+<div class="flat-shadow bg-white mb-6 overflow-hidden">
+<img class="w-full aspect-square object-cover transition-transform duration-500 group-hover:scale-105" alt="Learning to Bloom Again — portrait with flying petals and flowers" src="https://raw.githubusercontent.com/katharinamiessgang-prog/katharina-portfolio-images/main/learning-to-bloom.jpg"/>
+</div>
+<span class="font-label-caps text-tag uppercase text-muted-light mb-2 block">Photography, 2025</span>
+<h4 class="font-headline-md text-headline-md text-on-surface">Learning to Bloom Again</h4>
+</div>
+<!-- Grid Item 2 -->
+<div class="group cursor-pointer">
+<div class="flat-shadow bg-white mb-6 overflow-hidden">
+<img class="w-full aspect-square object-cover transition-transform duration-500 group-hover:scale-105" alt="Pulse — MDLBEAST festival poster" src="https://raw.githubusercontent.com/katharinamiessgang-prog/katharina-portfolio-images/main/pulse-mdlbeast.jpg"/>
+</div>
+<span class="font-label-caps text-tag uppercase text-muted-light mb-2 block">Branding, 2026</span>
+<h4 class="font-headline-md text-headline-md text-on-surface">Pulse — MDLBEAST</h4>
+</div>
+<!-- Grid Item 3 -->
+<div class="group cursor-pointer">
+<div class="flat-shadow bg-white mb-6 overflow-hidden">
+<img class="w-full aspect-square object-cover transition-transform duration-500 group-hover:scale-105" alt="Almabtrieb cow icon set, Austrian alpine festival branding" src="https://raw.githubusercontent.com/katharinamiessgang-prog/katharina-portfolio-images/main/almabtrieb-icons.jpg"/>
+</div>
+<span class="font-label-caps text-tag uppercase text-muted-light mb-2 block">Icon Design, 2026</span>
+<h4 class="font-headline-md text-headline-md text-on-surface">Almabtrieb Icons</h4>
+</div>
+<!-- Grid Item 4 -->
+<div class="group cursor-pointer">
+<div class="flat-shadow bg-white mb-6 overflow-hidden">
+<img class="w-full aspect-square object-cover transition-transform duration-500 group-hover:scale-105" alt="Spiders: Behind the Fear tarantula infographic poster" src="https://raw.githubusercontent.com/katharinamiessgang-prog/katharina-portfolio-images/main/spiders-infographic.jpg"/>
+</div>
+<span class="font-label-caps text-tag uppercase text-muted-light mb-2 block">Infographic Design, 2026</span>
+<h4 class="font-headline-md text-headline-md text-on-surface">Spiders: Behind the Fear</h4>
+</div>
+<!-- Grid Item 5 -->
+<div class="group cursor-pointer">
+<div class="flat-shadow bg-white mb-6 overflow-hidden">
+<img class="w-full aspect-square object-cover transition-transform duration-500 group-hover:scale-105" alt="Bad Taste Magazine — The Anatomy of a Bad Date cover" src="https://raw.githubusercontent.com/katharinamiessgang-prog/katharina-portfolio-images/main/bad-taste-magazine.jpg"/>
+</div>
+<span class="font-label-caps text-tag uppercase text-muted-light mb-2 block">Editorial Design, 2026</span>
+<h4 class="font-headline-md text-headline-md text-on-surface">Bad Taste Magazine</h4>
+</div>
+<!-- Grid Item 6 -->
+<a class="group cursor-pointer" href="https://youtu.be/3xV0B75oLiI" target="_blank" rel="noopener">
+<div class="flat-shadow bg-white mb-6 overflow-hidden">
+<img class="w-full aspect-square object-cover transition-transform duration-500 group-hover:scale-105" alt="Magic Gum 20 advertising film still" src="https://raw.githubusercontent.com/katharinamiessgang-prog/katharina-portfolio-images/main/magic-gum-20.jpg"/>
+</div>
+<span class="font-label-caps text-tag uppercase text-muted-light mb-2 block">Advertising Film, 2026</span>
+<h4 class="font-headline-md text-headline-md text-on-surface">Magic Gum 20</h4>
+</a>
+</div>
+</div>
+</section>
+<!-- Services Section -->
+<section class="py-section-padding bg-navy-bg text-white" id="services">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary-container block mb-16">Expertise</span>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+<div class="border-t border-dashed border-white/20 pt-8">
+<h5 class="font-headline-md text-headline-md mb-6">Creative Direction</h5>
+<p class="font-body-md text-body-md text-white/70">Holistic brand guidance, conceptual development, and overseeing visual consistency across all touchpoints.</p>
+</div>
+<div class="border-t border-dashed border-white/20 pt-8">
+<h5 class="font-headline-md text-headline-md mb-6">Photography</h5>
+<p class="font-body-md text-body-md text-white/70">Professional editorial, fashion, and lifestyle photography with a distinct stylistic edge and lighting focus.</p>
+</div>
+<div class="border-t border-dashed border-white/20 pt-8">
+<h5 class="font-headline-md text-headline-md mb-6">Branding</h5>
+<p class="font-body-md text-body-md text-white/70">Crafting unique visual identities, including logos, typography systems, and comprehensive brand books.</p>
+</div>
+<div class="border-t border-dashed border-white/20 pt-8">
+<h5 class="font-headline-md text-headline-md mb-6">Content Strategy</h5>
+<p class="font-body-md text-body-md text-white/70">Building cohesive digital narratives and social media storytelling that drives engagement and brand loyalty.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-section-padding bg-background-cream text-center" id="contact">
+<div class="max-w-3xl mx-auto px-margin-mobile">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary block mb-12">Let's work together</span>
+<a class="font-headline-lg text-[40px] md:text-[56px] font-extrabold hover:text-secondary-container transition-colors duration-300 block mb-16 break-all" href="mailto:katharina.miessgang@alumni.ie.edu">
+                katharina.miessgang@alumni.ie.edu
+            </a>
+<div class="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 pt-16 border-t border-dashed border-border-dashed">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-muted-dark">Madrid</span>
+<a class="font-label-caps text-label-caps uppercase tracking-widest hover:underline decoration-dashed transition-all" href="#">LinkedIn</a>
+<a class="font-label-caps text-label-caps uppercase tracking-widest hover:underline decoration-dashed transition-all" href="#">Instagram</a>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-background-cream border-t border-dashed border-border-dashed py-12">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter flex flex-col md:flex-row justify-between items-center gap-6">
+<p class="font-body-md text-body-md text-muted-dark">© 2026 Katharina Miessgang. All rights reserved.</p>
+<p class="font-label-caps text-label-caps uppercase tracking-widest text-muted-light">Madrid, ES</p>
+</div>
+</footer>
+<script>
+        // Simple intersection observer for navigation active states
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('nav a[href^="#"]');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= sectionTop - 100) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active-nav');
+                if (link.getAttribute('href').includes(current) && current !== '') {
+                    link.classList.add('active-nav');
+                }
+            });
+        });
+    </script>
+</body></html>
